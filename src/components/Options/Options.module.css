@@ -1,0 +1,23 @@
+.container {
+display: flex;
+    flex-direction: row;
+gap: 20px;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.btncard {
+border: 3px solid black;
+border-radius: 4px;
+}
+
+.btncardshow {
+    composes: btncard;
+    display: block;
+}
+
+.btncardhide {
+    composes: btncard;
+    display: none;
+}

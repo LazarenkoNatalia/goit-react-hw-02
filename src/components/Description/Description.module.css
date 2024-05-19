@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    color :black;
+    font-size: 48px;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+}
