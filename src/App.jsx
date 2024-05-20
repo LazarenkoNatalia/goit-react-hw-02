@@ -61,17 +61,6 @@ function App() {
     });
   }
 
-
-  // 
-useEffect(() => {
-		localStorage.setItem('saved-feedOpt', feedOpt)
-		// return () => console.log('unmounting')
-	}, [feedOpt])
-
-
- 
-
-
   return (
     <>
     <div>
